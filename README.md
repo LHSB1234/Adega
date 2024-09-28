@@ -32,8 +32,6 @@ Componente de cabeçalho da página principal, que contém opções para logout 
 ### `Footer.js`
 Componente de rodapé da aplicação.
 
-## Estrutura de Arquivos
-
 ## Como Usar
 
 - **Login:** Insira um nome de usuário para fazer login. A sessão será armazenada no `localStorage`.
