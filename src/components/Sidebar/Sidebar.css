@@ -1,0 +1,53 @@
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer; /* Adiciona o cursor de ponteiro ao passar o mouse */
+  }
+  
+  .sidebar li:hover {
+    background-color: #e9ecef; /* Cor de fundo suave quando o usuário passa o mouse */
+  }
+  
+  .sidebar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sidebar button:hover {
+    background-color: #0056b2;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar li ul {
+    list-style-type: none;
+    padding-left: 20px;
+    align-items: center;
+  }
+  
+  .sidebar li ul li {
+    font-size: 1rem;
+    color: #666;
+  }
+
+  .sidebar-close {
+    left: -250px;
+  }
+  
+  .sidebar-close {
+    left: -250px;
+    transition: all 0.3s ease-in-out;
+  }
